@@ -113,6 +113,7 @@
 				TargetAttributes = {
 					6C82E1DC1BDF481900EDE6D7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V7T6BM6M99;
 					};
 				};
 			};
@@ -265,10 +266,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MHMyFont/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = macro.MHMyFont;
+				PRODUCT_BUNDLE_IDENTIFIER = macro.test.MHMyFont;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -277,10 +279,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MHMyFont/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = macro.MHMyFont;
+				PRODUCT_BUNDLE_IDENTIFIER = macro.test.MHMyFont;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -304,6 +307,7 @@
 				6C82E1F61BDF481900EDE6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
